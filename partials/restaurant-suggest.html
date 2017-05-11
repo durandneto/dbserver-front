@@ -1,0 +1,5 @@
+<h2 ng-init="restaurant.load()">Suggestions</h2>
+<div ng-repeat="r in restaurant.getSuggestions()">
+    <h3>{{r.name}}</h3>
+    <button type="button" class="btn btn-default btn-sm" ng-click="restaurant.suggest(r,'suggest')">Suggest</button>
+</div>

@@ -1,0 +1,414 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="92"  lines-covered="87"  line-rate="0.9457"  branches-valid="34"  branches-covered="33"  branch-rate="0.9706"  timestamp="1494307000685" complexity="0" version="0.1">
+<sources>
+	<source>/private/var/www/dbserver</source>
+</sources>
+<packages>
+	<package name="js"  line-rate="1"  branch-rate="1" >
+	<classes>
+		<class name="app.js"  filename="js/app.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="_interopRequireDefault"  hits="18"  signature="()V" >
+				<lines><line number="81"  hits="18" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="2"  signature="()V" >
+				<lines><line number="116"  hits="2" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="18"  branch="false" />
+			<line number="2"  hits="1"  branch="false" />
+			<line number="3"  hits="1"  branch="false" />
+			<line number="4"  hits="1"  branch="false" />
+			<line number="6"  hits="1"  branch="false" />
+			<line number="7"  hits="1"  branch="false" />
+			<line number="8"  hits="1"  branch="false" />
+			<line number="11"  hits="1"  branch="false" />
+			<line number="12"  hits="1"  branch="false" />
+			<line number="13"  hits="1"  branch="false" />
+			<line number="14"  hits="1"  branch="false" />
+			<line number="15"  hits="1"  branch="false" />
+			<line number="16"  hits="1"  branch="false" />
+			<line number="19"  hits="1"  branch="false" />
+			<line number="20"  hits="1"  branch="false" />
+			<line number="21"  hits="1"  branch="false" />
+			<line number="22"  hits="1"  branch="false" />
+			<line number="23"  hits="1"  branch="false" />
+			<line number="24"  hits="1"  branch="false" />
+			<line number="25"  hits="1"  branch="false" />
+			<line number="26"  hits="1"  branch="false" />
+			<line number="27"  hits="1"  branch="false" />
+			<line number="29"  hits="1"  branch="false" />
+			<line number="31"  hits="1"  branch="false" />
+			<line number="32"  hits="1"  branch="false" />
+			<line number="33"  hits="1"  branch="false" />
+			<line number="35"  hits="1"  branch="false" />
+			<line number="36"  hits="1"  branch="false" />
+			<line number="37"  hits="1"  branch="false" />
+			<line number="38"  hits="1"  branch="false" />
+			<line number="39"  hits="1"  branch="false" />
+			<line number="40"  hits="1"  branch="false" />
+			<line number="42"  hits="1"  branch="false" />
+			<line number="43"  hits="1"  branch="false" />
+			<line number="44"  hits="1"  branch="false" />
+			<line number="45"  hits="1"  branch="false" />
+			<line number="46"  hits="1"  branch="false" />
+			<line number="47"  hits="1"  branch="false" />
+			<line number="48"  hits="1"  branch="false" />
+			<line number="49"  hits="1"  branch="false" />
+			<line number="50"  hits="1"  branch="false" />
+			<line number="52"  hits="1"  branch="false" />
+			<line number="54"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="js.controllers"  line-rate="1"  branch-rate="1" >
+	<classes>
+		<class name="MainCtrl.js"  filename="js/controllers/MainCtrl.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="MainCtrl"  hits="1"  signature="()V" >
+				<lines><line number="6"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+			<line number="8"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="RestaurantsCtrl.js"  filename="js/controllers/RestaurantsCtrl.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="RestaurantVotesCtrl"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="0"  signature="()V" >
+				<lines><line number="11"  hits="0" /></lines>
+			</method>
+			<method name="_onSuggestSucces"  hits="1"  signature="()V" >
+				<lines><line number="15"  hits="1" /></lines>
+			</method>
+			<method name="_onSuggestError"  hits="1"  signature="()V" >
+				<lines><line number="20"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+			<line number="22"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="UserCtrl.js"  filename="js/controllers/UserCtrl.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="UserCtrl"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+			<line number="8"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="js.directives"  line-rate="1"  branch-rate="1" >
+	<classes>
+		<class name="Durand.js"  filename="js/directives/Durand.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="Durand"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="PageLogged.js"  filename="js/directives/PageLogged.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="PageLogged"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="PageUnlogged.js"  filename="js/directives/PageUnlogged.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="PageUnlogged"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="RestaurantChosenByMost.js"  filename="js/directives/RestaurantChosenByMost.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="UserFormLogin"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="RestaurantMorePopular.js"  filename="js/directives/RestaurantMorePopular.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="UserFormLogin"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="RestaurantSuggest.js"  filename="js/directives/RestaurantSuggest.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="UserFormLogin"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="RestaurantVotes.js"  filename="js/directives/RestaurantVotes.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="UserFormLogin"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="UserAlerts.js"  filename="js/directives/UserAlerts.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="UserFormLogin"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="UserFormLogin.js"  filename="js/directives/UserFormLogin.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="UserFormLogin"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="js.services"  line-rate="0.7726999999999999"  branch-rate="0.9667" >
+	<classes>
+		<class name="DBServerApiService.js"  filename="js/services/DBServerApiService.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="DBServerApiService"  hits="1"  signature="()V" >
+				<lines><line number="7"  hits="1" /></lines>
+			</method>
+			<method name="post"  hits="0"  signature="()V" >
+				<lines><line number="19"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="0"  signature="()V" >
+				<lines><line number="20"  hits="0" /></lines>
+			</method>
+			<method name="get"  hits="0"  signature="()V" >
+				<lines><line number="35"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_5)"  hits="0"  signature="()V" >
+				<lines><line number="36"  hits="0" /></lines>
+			</method>
+			<method name="_delete"  hits="0"  signature="()V" >
+				<lines><line number="50"  hits="0" /></lines>
+			</method>
+			<method name="patch"  hits="0"  signature="()V" >
+				<lines><line number="60"  hits="0" /></lines>
+			</method>
+			<method name="put"  hits="0"  signature="()V" >
+				<lines><line number="70"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="2"  hits="1"  branch="false" />
+			<line number="73"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="DBServerRestaurantsService.js"  filename="js/services/DBServerRestaurantsService.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="DBServerRestaurant"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+			<method name="load"  hits="1"  signature="()V" >
+				<lines><line number="19"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="0"  signature="()V" >
+				<lines><line number="21"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_4)"  hits="0"  signature="()V" >
+				<lines><line number="32"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_5)"  hits="0"  signature="()V" >
+				<lines><line number="36"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_6)"  hits="0"  signature="()V" >
+				<lines><line number="40"  hits="0" /></lines>
+			</method>
+			<method name="suggest"  hits="1"  signature="()V" >
+				<lines><line number="52"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_8)"  hits="0"  signature="()V" >
+				<lines><line number="54"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_9)"  hits="0"  signature="()V" >
+				<lines><line number="66"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_10)"  hits="0"  signature="()V" >
+				<lines><line number="70"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_11)"  hits="0"  signature="()V" >
+				<lines><line number="74"  hits="0" /></lines>
+			</method>
+			<method name="getDataSuggestions"  hits="1"  signature="()V" >
+				<lines><line number="81"  hits="1" /></lines>
+			</method>
+			<method name="getDataVotted"  hits="1"  signature="()V" >
+				<lines><line number="84"  hits="1" /></lines>
+			</method>
+			<method name="getAll"  hits="1"  signature="()V" >
+				<lines><line number="87"  hits="1" /></lines>
+			</method>
+			<method name="getDataAlerts"  hits="1"  signature="()V" >
+				<lines><line number="90"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+			<line number="102"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="DBServerUrlManagerService.js"  filename="js/services/DBServerUrlManagerService.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="DBServerUrlManager"  hits="1"  signature="()V" >
+				<lines><line number="6"  hits="1" /></lines>
+			</method>
+			<method name="loadUserGetMe"  hits="1"  signature="()V" >
+				<lines><line number="14"  hits="1" /></lines>
+			</method>
+			<method name="loadRestaurants"  hits="1"  signature="()V" >
+				<lines><line number="23"  hits="1" /></lines>
+			</method>
+			<method name="suggestRestaurant"  hits="1"  signature="()V" >
+				<lines><line number="32"  hits="1" /></lines>
+			</method>
+			<method name="loadUserAlerts"  hits="1"  signature="()V" >
+				<lines><line number="41"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="DBServerUserAlertService.js"  filename="js/services/DBServerUserAlertService.js"  line-rate="0.6"  branch-rate="1" >
+		<methods>
+			<method name="DBServerAlert"  hits="1"  signature="()V" >
+				<lines><line number="6"  hits="1" /></lines>
+			</method>
+			<method name="load"  hits="1"  signature="()V" >
+				<lines><line number="16"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="0"  signature="()V" >
+				<lines><line number="18"  hits="0" /></lines>
+			</method>
+			<method name="getAll"  hits="1"  signature="()V" >
+				<lines><line number="34"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+			<line number="25"  hits="0"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="30"  hits="0"  branch="false" />
+			<line number="46"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="DBServerUserService.js"  filename="js/services/DBServerUserService.js"  line-rate="0.5"  branch-rate="1" >
+		<methods>
+			<method name="DBServerUser"  hits="1"  signature="()V" >
+				<lines><line number="6"  hits="1" /></lines>
+			</method>
+			<method name="load"  hits="1"  signature="()V" >
+				<lines><line number="16"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="0"  signature="()V" >
+				<lines><line number="18"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_4)"  hits="0"  signature="()V" >
+				<lines><line number="27"  hits="0" /></lines>
+			</method>
+			<method name="logout"  hits="1"  signature="()V" >
+				<lines><line number="40"  hits="1" /></lines>
+			</method>
+			<method name="get"  hits="1"  signature="()V" >
+				<lines><line number="55"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="1"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+			<line number="22"  hits="0"  branch="false" />
+			<line number="27"  hits="0"  branch="false" />
+			<line number="42"  hits="0"  branch="false" />
+			<line number="65"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="MyLocalStorageService.js"  filename="js/services/MyLocalStorageService.js"  line-rate="1"  branch-rate="0.8332999999999999" >
+		<methods>
+			<method name="DBServerStorage"  hits="2"  signature="()V" >
+				<lines><line number="6"  hits="2" /></lines>
+			</method>
+			<method name="remove"  hits="1"  signature="()V" >
+				<lines><line number="9"  hits="1" /></lines>
+			</method>
+			<method name="set"  hits="1"  signature="()V" >
+				<lines><line number="12"  hits="1" /></lines>
+			</method>
+			<method name="get"  hits="1"  signature="()V" >
+				<lines><line number="15"  hits="1" /></lines>
+			</method>
+			<method name="setObject"  hits="1"  signature="()V" >
+				<lines><line number="18"  hits="1" /></lines>
+			</method>
+			<method name="getObject"  hits="2"  signature="()V" >
+				<lines><line number="21"  hits="2" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="0"  hits="2"  branch="false" />
+			<line number="1"  hits="1"  branch="false" />
+			<line number="32"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+</packages>
+</coverage>

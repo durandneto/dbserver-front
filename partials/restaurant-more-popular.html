@@ -1,0 +1,14 @@
+<h2>Restaurant more Polular</h2>
+<div  ng-repeat="r in restaurant.getVotted() | orderBy:'-like' | limitTo:1 ">
+    <h4>{{r.name}}</h4>
+    <span
+        uib-rating ng-model="r.rate"
+        max="r.max"
+        read-only=true
+        aria-labelledby="default-rating" >
+    </span>
+
+    <span class="label" ng-class="{'label-warning': r.percent<30, 'label-info': r.percent>=30 && r.percent<70, 'label-success': r.percent>=70}">{{r.percent}}%</span>
+    <p>{{r.rate}} Votes</p>
+    <p>{{r.like}} Likes</p>
+</div>

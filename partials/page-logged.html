@@ -1,0 +1,23 @@
+<div class="home">
+	<div class="home__header">
+	  <p>User Logged</p>
+	  <p>ID: {{User.get('id')}}</p>
+	  <p>Name: {{User.get('name')}}</p>
+	  <p>E-mail: {{User.get('email')}}</p>
+	  <button type="button" class="btn btn-default btn-sm" ng-click="User.logout()">Logout</button>
+	</div>
+
+	<div class="home__content" >
+		<div class="home__content--item">
+			<restaurant-votes />
+		</div>
+		<div class="home__content--item">
+			<span ng-if="user" class="animate-if">
+			  user logged
+			</span>
+		</div> 
+		<div class="home__content--item"><restaurant-suggest /></div>
+		<div class="home__content--item">1</div>
+	</div>
+	<div>footer</div>
+</div>

@@ -1,0 +1,20 @@
+<h2>Best Restaurants</h2>
+<div  ng-repeat="r in restaurant.getVotted() | orderBy:'-rate'">
+    <h4>{{r.name}}</h4>
+    <span
+        uib-rating ng-model="r.rate"
+        max="r.max"
+        read-only=true
+        aria-labelledby="default-rating" >
+    </span>
+
+    <span class="label" ng-class="{'label-warning': r.percent<30, 'label-info': r.percent>=30 && r.percent<70, 'label-success': r.percent>=70}">{{r.percent}}%</span>
+    <p>
+        <a  style="color:blue; cursor: pointer" ng-click="restaurant.suggest(r,'love')">
+            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> {{r.like}}
+        </span> 
+        <a  style="color:red; cursor: pointer">
+            <i class="fa fa-thumbs-o-down" aria-hidden="true" ></i> {{r.unlike}}
+        </a> 
+    </p>
+</div>
